@@ -1,0 +1,101 @@
+.header-menu {
+    padding: 0px 48px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 47px;
+    align-items: center;
+    .left-block {
+        display: flex;
+        align-items: center;
+        gap: 88px;
+        font-family: Inter;
+        font-size: 12.091px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        img {
+            max-width: 24px;
+            width: 100%;
+        }
+        span {
+            color: #fff;
+            font-family: Inter;
+            font-size: 11.446px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 128.023%;
+            text-decoration: line-through;
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgba(255, 255, 255, 0.8);
+                border: 1px solid transparent;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 128.023%;
+                padding: 5px 10px;
+                border-radius: 7px;
+                transition: all 0.3s;
+            }
+            a:hover {
+                border: 1px solid #fff;
+            }
+            a.active {
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+    .registration-btn {
+        display: flex;
+        gap: 14px;
+        button {
+            cursor: pointer;
+        }
+    }
+    .login-btn {
+        color: rgba(255, 255, 255, 0.8);
+        padding: 5px 10px;
+        font-weight: 400;
+        line-height: 128.023%;
+        background: none;
+        border: 1px solid transparent;
+        transition: all 0.3s;
+    }
+    .login-btn:hover {
+        background: #000;
+        border: 1px solid #fff;
+    }
+    .sign-up-btn {
+        min-width: 114px;
+        padding: 8.636px 13.818px;
+        border-radius: 7px;
+        border: 0.864px solid #d66567;
+        background: #bc4749;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 128.023%;
+        transition: all 0.2s;
+    }
+    .sign-up-btn:hover {
+        background-color: #d66567;
+        color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+}

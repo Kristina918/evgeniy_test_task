@@ -1,0 +1,84 @@
+%svg-common {
+    background: url("svg/sprite.css-92c2f788.svg") no-repeat;
+}
+
+.svg-apple {
+    @extend %svg-common;
+    background-position: 47.62954796030871% 25.951334379905802%;
+}
+
+.svg-apple-dims {
+    width: 365px;
+    height: 451px;
+}
+
+.svg-circle {
+    @extend %svg-common;
+    background-position: 0 99.96510560146922%;
+}
+
+.svg-circle-dims {
+    width: 724px;
+    height: 636px;
+}
+
+.svg-circle-green {
+    @extend %svg-common;
+    background-position: 99.95737704918034% 0;
+}
+
+.svg-circle-green-dims {
+    width: 715px;
+    height: 829px;
+}
+
+.svg-circle-red {
+    @extend %svg-common;
+    background-position: 0 34.190279214064105%;
+}
+
+.svg-circle-red-dims {
+    width: 864px;
+    height: 758px;
+}
+
+.svg-line {
+    @extend %svg-common;
+    background-position: 0 0;
+}
+
+.svg-line-dims {
+    width: 1463.376px;
+    height: 329.667px;
+}
+
+.svg-line2 {
+    @extend %svg-common;
+    background-position: 0 19.121694478166777%;
+}
+
+.svg-line2-dims {
+    width: 968.844px;
+    height: 0.953px;
+}
+
+.svg-logo {
+    @extend %svg-common;
+    background-position: 67.90607888631091% 48.507899356348744%;
+}
+
+.svg-logo-dims {
+    width: 24px;
+    height: 16px;
+}
+
+.svg-marker {
+    @extend %svg-common;
+    background-position: 68.6059040590406% 48.25378346915017%;
+}
+
+.svg-marker-dims {
+    width: 11px;
+    height: 7px;
+}
+
