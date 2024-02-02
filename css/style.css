@@ -452,17 +452,20 @@ a {
 }
 
 .line-block {
+  width: 100%;
   position: absolute;
   text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  top: 183px;
-  left: auto;
-  right: auto;
+  top: 453px;
   z-index: 2;
 }
 
-.line-block img {
+.line-block span {
+  content: "";
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0549019608);
   max-width: 960px;
 }
 
